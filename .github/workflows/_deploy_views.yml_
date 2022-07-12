@@ -1,0 +1,27 @@
+name: "Integration Test"
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+    branches:
+      - main
+
+env:
+  PYTHON_VERSION: "3.10"
+
+jobs:
+  deploy_schemas:
+    runs-on: ubuntu-latest
+    name: Deploy views to BigQuery
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      #- name: Checkout
+      #  uses: workflows/checkout@v3
+      - name: Deploy views to BigQuery
+        uses: youg786/bigquery-action@v3
+        env:
+          gcp_project: 'terra-incognita-cote-ivoire'
+          project_dataset_directory: 'terra-incognita-cote-ivoire/test'
+          credentials: ${{ secrets.DEPLOY_VIEWS }}
