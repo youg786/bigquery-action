@@ -17,8 +17,8 @@ jobs:
     steps:
       # To use this repository's private action,
       # you must check out the repository
-      #- name: Checkout
-      #  uses: workflows/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
       - name: Deploy views to BigQuery
         uses: youg786/bigquery-action@v3
         env:
