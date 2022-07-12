@@ -24,4 +24,4 @@ jobs:
         env:
           gcp_project: 'terra-incognita-cote-ivoire'
           project_dataset_directory: 'terra-incognita-cote-ivoire/test'
-          credentials: ${{ DEPLOY_VIEWS.GCP_SERVICE_ACCOUNT }}
+          credentials: ${{ secrets.DEPLOY_VIEWS }}
