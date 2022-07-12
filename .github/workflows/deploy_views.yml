@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Deploy views to BigQuery
-        uses: ./ # Uses an action in the root directory
+        uses: youg786/bigquery-action@v3
         env:
           gcp_project: 'terra-incognita-cote-ivoire'
           project_dataset_directory: 'terra-incognita-cote-ivoire/test'
