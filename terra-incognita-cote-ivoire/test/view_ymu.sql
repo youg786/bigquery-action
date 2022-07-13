@@ -1,1 +1,2 @@
 SELECT * FROM test.TEST_TABLE2
+
