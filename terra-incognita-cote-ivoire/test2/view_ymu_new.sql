@@ -1,0 +1,2 @@
+SELECT * FROM test.TEST_TABLE3
+
