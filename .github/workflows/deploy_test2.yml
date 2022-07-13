@@ -1,4 +1,4 @@
-name: "Deploy sandbox"
+name: "Deploy test2"
 on:
   push:
     branches:
@@ -23,5 +23,5 @@ jobs:
         uses: youg786/bigquery-action@v3
         env:
           gcp_project: 'terra-incognita-cote-ivoire'
-          dataset_schema_directory: 'terra-incognita-cote-ivoire/test2'
+          dataset_schema_directory: 'terra-incognita-cote-ivoire'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
