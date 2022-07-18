@@ -9,6 +9,7 @@ trunc(oggi.pmp - ieri.pmp,2) as DIFF_VAL,
 abs(trunc(((oggi.pmp - ieri.pmp)/oggi.pmp)*100,2)) as DIFF_PERC
 
 
+
 FROM `terra-incognita-cote-ivoire.shipment.PMP_HISTORY_COMPANY` as oggi
 left join `terra-incognita-cote-ivoire.shipment.PMP_HISTORY_COMPANY` as ieri
 on oggi.id_archipelia = ieri.id_archipelia and cast(oggi.date as date) = date_sub(cast(ieri.date as date), interval 1 day)
