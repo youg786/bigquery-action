@@ -1,9 +1,0 @@
-{
-	"mapping": "csv",
-	"uri": "http://test.example.fr/datasource.json",
-	"key": "_id",
-	"delimiter": ",",
-	"table": "YMU_TEST",
-	"refresh": 1000,
-	"charset": "UTF-8"
-}
