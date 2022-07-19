@@ -1,3 +1,9 @@
-1, business, categoris, price
-2, pro, market, 200
-3, recet, fruit, 54
+{
+	"mapping": "csv",
+	"uri": "http://test.example.fr/datasource.json",
+	"key": "_id",
+	"delimiter": ",",
+	"table": "YMU_TEST",
+	"refresh": 1000,
+	"charset": "UTF-8"
+}
