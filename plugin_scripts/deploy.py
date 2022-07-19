@@ -13,7 +13,7 @@ def _validate_env_variables():
     if not os.environ.get("gcp_project"):
         raise Exception("Missing `gcp_project` config")
 
-    if not os.environ.get("dataset_schema_directory"):
+    if not os.environ.get("data":"dataset_schema_directory"):
         raise Exception("Missing `dataset_schema_directory` config")
 
     if not os.environ.get("credentials"):
