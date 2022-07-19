@@ -1,3 +1,14 @@
-
-0,BUSINESS:STRING,
-1,CATEGORIE:STRING,
+rows = [
+    {'name': 'Albania',
+    'area': 28748,
+    'country_code2': 'AL',
+    'country_code3': 'ALB'},
+    {'name': 'Algeria',
+    'area': 2381741,
+    'country_code2': 'DZ',
+    'country_code3': 'DZA'},
+    {'name': 'American Samoa',
+    'area': 199,
+    'country_code2': 'AS',
+    'country_code3': 'ASM'}
+]
