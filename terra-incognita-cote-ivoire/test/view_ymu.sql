@@ -1,2 +1,1 @@
-SELECT * FROM test.TEST_TABLE2
--- ok?
+select * from AMS.TEST
