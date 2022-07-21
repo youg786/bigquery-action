@@ -11,6 +11,10 @@
 		{
 			"name": "EndTimeUTC",
 			"type": "STRING"
+		},
+		{
+			"name": "StartTimeUTC",
+			"type": "STRING"
 		}
 	]
 }
