@@ -21,8 +21,8 @@
 			"type": "STRING"
 		},
 		{
-			"name": "StatusTimeUTC",
-			"type": "STRING"
+			"_name": "StatusTimeUTC",
+			"_type": "STRING"
 		}
 	]
 }
