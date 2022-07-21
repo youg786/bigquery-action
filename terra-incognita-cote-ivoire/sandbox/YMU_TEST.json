@@ -19,10 +19,6 @@
 		{
 			"name": "StopTimeUTC",
 			"type": "STRING"
-		},
-		{
-			"_name": "StatusTimeUTC",
-			"_type": "STRING"
 		}
 	]
 }
