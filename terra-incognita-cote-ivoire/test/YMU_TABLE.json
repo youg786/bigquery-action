@@ -1,0 +1,12 @@
+{
+	"schema": [
+		{
+			"name": "ID",
+			"type": "STRING"
+		},
+		{
+			"name": "FieldName",
+			"type": "STRING"
+		}
+	]
+}

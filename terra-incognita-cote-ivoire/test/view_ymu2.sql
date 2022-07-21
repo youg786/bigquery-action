@@ -1,2 +1,2 @@
-select * from AMS.TEST
+select * from test.YMU_TABLE
 -- ok?
