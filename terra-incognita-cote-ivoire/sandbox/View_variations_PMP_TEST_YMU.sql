@@ -8,7 +8,7 @@ trunc(ieri.pmp,2) as NEW_PMP,
 trunc(oggi.pmp - ieri.pmp,2) as DIFF_VAL, 
 abs(trunc(((oggi.pmp - ieri.pmp)/oggi.pmp)*100,2)) as DIFF_PERC
 
---test commentaire update ok
+--test commentaire update ok2
 
 FROM `terra-incognita-cote-ivoire.shipment.PMP_HISTORY_COMPANY` as oggi
 left join `terra-incognita-cote-ivoire.shipment.PMP_HISTORY_COMPANY` as ieri
