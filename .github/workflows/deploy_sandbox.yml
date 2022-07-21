@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'terra-incognita-cote-ivoire/sandbox/*'
   pull_request_target:
     branches:
       - main
