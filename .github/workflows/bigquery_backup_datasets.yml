@@ -29,6 +29,6 @@ jobs:
         run: |
           python bigquery_backup.py --input sandbox --output gs://terra-incognita-data/SB2
         env:
-          gcp_project: 'terra-incognita-cote-ivoire'
-          dataset_schema_directory: 'terra-incognita-cote-ivoire/sandbox'
+          #gcp_project: 'terra-incognita-cote-ivoire'
+          #dataset_schema_directory: 'terra-incognita-cote-ivoire/sandbox'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
