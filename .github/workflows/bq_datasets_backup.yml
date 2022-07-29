@@ -32,3 +32,4 @@ jobs:
         run: |
           set -xv
           python python-scripts/bigquery_backup.py --input sandbox --output gs://terra-incognita-data/SB2
+
