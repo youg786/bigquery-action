@@ -31,5 +31,6 @@ jobs:
           BIGQUERY_DATASETS_BACKUP: ${{ secrets.BIGQUERY_DATASETS_BACKUP }}
         run: |
           set -xv
+          gcloud auth login
           python python-scripts/bigquery_backup.py --input sandbox --output gs://terra-incognita-data/SB2
 
