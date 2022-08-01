@@ -2,7 +2,7 @@
 import json
 import os
 
-from google.cloud import bigquery
+from gbq import bigquery
 
 
 client = bigquery.Client()
