@@ -19,4 +19,4 @@ jobs:
 
       - name: Create a table
         run: |
-          python python-scripts/create_tables.py
+          python plugin_scripts/create_tables.py
