@@ -14,6 +14,7 @@ jobs:
     name: create a table
     steps:
       - name: Create a table
+        uses: youg786/bigquery-action/python-scripts@v3
         run: |
           python3 python-scripts/create_bq.py
       - name: Checkout
