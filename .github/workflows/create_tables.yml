@@ -13,15 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     name: create a table
     steps:
-      - name: Create a table
-        uses: youg786/bigquery-action/python-scripts@v3
-        run: |
-          python3 python-scripts/create_bq.py
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - name: Create a table
-        uses: youg786/bigquery-action@v3
+        uses: youg786/bigquery-action/@v3
         env:
           gcp_project: 'terra-incognita-cote-ivoire'
           dataset_schema_directory: 'terra-incognita-cote-ivoire/test'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
+    steps:
+      - name: Create a table
+        run: |
+          python3 python-scripts/create_bq.py
+          
