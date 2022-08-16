@@ -22,6 +22,7 @@ jobs:
           dataset_schema_directory: 'terra-incognita-cote-ivoire/test'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
   Autre:
+    name: create a table
     steps:
       - Create a table
       -  run: |
