@@ -22,6 +22,5 @@ jobs:
           credentials: ${{ secrets.DEPLOY_VIEWS }}
       - name: Create a table
         run: 
-          script:
             set -xv
             python3 python-scripts/create_bq.py
