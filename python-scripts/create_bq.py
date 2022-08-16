@@ -1,6 +1,7 @@
 """For educational purposes... Tables"""
 import json
 import os
+import sys
 
 from gbq import bigquery
 
