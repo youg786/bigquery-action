@@ -24,7 +24,6 @@ jobs:
   Autre:
     name: create a table
     steps:
-      - Create a table
       -  run: |
           python3 python-scripts/create_bq.py
           
