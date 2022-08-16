@@ -23,5 +23,4 @@ jobs:
       - name: Create a table
         job:
           script:
-            - |
-              echo "ok"
+            - echo "ok"
