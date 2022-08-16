@@ -21,6 +21,7 @@ jobs:
           gcp_project: 'terra-incognita-cote-ivoire'
           dataset_schema_directory: 'terra-incognita-cote-ivoire/test'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
+  Autre:
     steps:
       - Create a table
       -  run: |
