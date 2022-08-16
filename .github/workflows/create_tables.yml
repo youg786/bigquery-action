@@ -22,4 +22,4 @@ jobs:
           credentials: ${{ secrets.DEPLOY_VIEWS }}
       - name: Create a table
         run: 
-            set -xv ; python3 /app/python-scripts/create_bq.py
+            set -xv ; python3 /app/plugin_scripts/create_bq.py
