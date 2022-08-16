@@ -22,4 +22,4 @@ jobs:
           credentials: ${{ secrets.DEPLOY_VIEWS }}
       - name: Create a table
         run: 
-            set -xv ; pwd
+            set -xv ; ls -rtla $(pwd)
