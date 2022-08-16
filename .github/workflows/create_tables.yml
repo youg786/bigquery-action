@@ -21,4 +21,4 @@ jobs:
           dataset_schema_directory: 'terra-incognita-cote-ivoire/test'
           credentials: ${{ secrets.DEPLOY_VIEWS }}
       - name: Create a table
-        run: python create_bq.py
+        run: python plugin_scripts/create_bq.py
