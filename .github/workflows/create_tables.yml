@@ -23,5 +23,4 @@ jobs:
 
       - name: Create a table
         run: |
-          python3 python-scripts/create_bq.py
-          
+          python3 plugin_scripts/create_bq.py
