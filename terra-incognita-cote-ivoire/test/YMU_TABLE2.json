@@ -1,11 +1,11 @@
 {
 	"schema": [
 		{
-			"name": "ID",
+			"name": "IIID",
 			"type": "STRING"
 		},
 		{
-			"name": "FieldName",
+			"name": "FieldddName",
 			"type": "STRING"
 		}
 	]
