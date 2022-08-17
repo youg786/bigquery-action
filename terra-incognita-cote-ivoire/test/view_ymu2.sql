@@ -1,2 +1,2 @@
 select * from test.YMU_TABLE
--- ok??
+-- ok au 17/08
