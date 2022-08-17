@@ -22,4 +22,4 @@ jobs:
           credentials: ${{ secrets.DEPLOY_VIEWS }}
       - name: Create a table
         run: 
-          set -xv ; pip install -r plugin_scripts/requirements.lock ; python3 /home/runner/work/bigquery-action/bigquery-action/python_scripts/create_bq.py
+          set -xv ; sudo apt install python3-testresources ; pip install -r plugin_scripts/requirements.lock ; python3 /home/runner/work/bigquery-action/bigquery-action/python_scripts/create_bq.py
