@@ -2,8 +2,8 @@
 import json
 import os
 
-from gbq import bigquery
-
+#from gbq import bigquery
+from google.cloud import bigquery
 
 client = bigquery.Client()
 
